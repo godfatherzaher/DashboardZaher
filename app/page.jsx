@@ -1,6 +1,14 @@
+import Link from 'next/link';
+
 const Homepage = () => {
   return (
-    <div>Homepage</div>
+    <div>Homepage
+      <Link href="/dashboard">
+        Dashboard
+      </Link>
+
+    </div>
+
   )
 }
 
